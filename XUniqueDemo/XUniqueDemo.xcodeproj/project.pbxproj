@@ -18,6 +18,8 @@
 		ADC9BD36198F3C8600E11BC5 /* MMZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9BD34198F3C8600E11BC5 /* MMZFirstViewController.m */; };
 		ADC9BD39198F3C9E00E11BC5 /* MMZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9BD38198F3C9E00E11BC5 /* MMZSecondViewController.m */; };
 		ADC9BD3A198F3C9E00E11BC5 /* MMZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9BD38198F3C9E00E11BC5 /* MMZSecondViewController.m */; };
+		ADC9BD48198F6BAF00E11BC5 /* MMZFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9BD47198F6BAF00E11BC5 /* MMZFourthViewController.m */; };
+		ADC9BD49198F6BAF00E11BC5 /* MMZFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9BD47198F6BAF00E11BC5 /* MMZFourthViewController.m */; };
 		D025B90F6E797BAB12BABBB11DC9012D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0EE4F9FBB2FECA311C048CA33EE5C82 /* InfoPlist.strings */; };
 		D1330C767EAEDEE1046BF49B178902F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A932927B82DAF20AAC1B9CE6F33104 /* CoreGraphics.framework */; };
 		E1FBBA9D562B37F54E18FB85DA0C770D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39D16A3B0377EDD449898801EE2323A /* Foundation.framework */; };
@@ -47,6 +49,8 @@
 		ADC9BD34198F3C8600E11BC5 /* MMZFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMZFirstViewController.m; sourceTree = "<group>"; };
 		ADC9BD37198F3C9E00E11BC5 /* MMZSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMZSecondViewController.h; sourceTree = "<group>"; };
 		ADC9BD38198F3C9E00E11BC5 /* MMZSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMZSecondViewController.m; sourceTree = "<group>"; };
+		ADC9BD46198F6BAF00E11BC5 /* MMZFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMZFourthViewController.h; sourceTree = "<group>"; };
+		ADC9BD47198F6BAF00E11BC5 /* MMZFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMZFourthViewController.m; sourceTree = "<group>"; };
 		AF378A27EE007655613A508C1ADFF2F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFE8AB4386564DD4D3D466B39474C627 /* XUniqueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XUniqueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36F4ED718A933242387B8E96D3F62CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				ADC9BD34198F3C8600E11BC5 /* MMZFirstViewController.m */,
 				ADC9BD37198F3C9E00E11BC5 /* MMZSecondViewController.h */,
 				ADC9BD38198F3C9E00E11BC5 /* MMZSecondViewController.m */,
+				ADC9BD46198F6BAF00E11BC5 /* MMZFourthViewController.h */,
+				ADC9BD47198F6BAF00E11BC5 /* MMZFourthViewController.m */,
 			);
 			path = XUniqueDemo;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			files = (
 				ADC9BD35198F3C8600E11BC5 /* MMZFirstViewController.m in Sources */,
 				F7AEC5AF531C4CE5BB7DD233C5DAE940 /* MMZAppDelegate.m in Sources */,
+				ADC9BD48198F6BAF00E11BC5 /* MMZFourthViewController.m in Sources */,
 				27D1263C51C20DC9B1E79597C445B0C7 /* main.m in Sources */,
 				ADC9BD39198F3C9E00E11BC5 /* MMZSecondViewController.m in Sources */,
 			);
@@ -266,6 +273,7 @@
 				ADC9BD36198F3C8600E11BC5 /* MMZFirstViewController.m in Sources */,
 				ABBCE2A8D0F172B6593AA7A93B1E999E /* XUniqueDemoTests.m in Sources */,
 				ADC9BD3A198F3C9E00E11BC5 /* MMZSecondViewController.m in Sources */,
+				ADC9BD49198F6BAF00E11BC5 /* MMZFourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
